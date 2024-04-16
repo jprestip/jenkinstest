@@ -1,2 +1,2 @@
 
-print("Hello Jenkins world")
+print("Hello-goodbye Jenkins world")
