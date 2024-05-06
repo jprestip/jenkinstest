@@ -1,9 +1,5 @@
 pipeline {
-    agent { 
-        node {
-            label 'jp-docker-agent-alpine'
-            }
-      }
+    agent any
     triggers {
         pollSCM '* * * * *'
     }
