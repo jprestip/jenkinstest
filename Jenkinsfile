@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Building something..."
+                echo "Building something new..."
                 sh '''
                 cd myapp
                 pip install -r requirements.txt --break-system-packages
